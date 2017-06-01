@@ -1,3 +1,3 @@
-FROM postgres:9.6
+FROM jkatskuid/docker-postgres-uuid
 
 #ADD ./managed/postgres/bus_managed.sql /docker-entrypoint-initdb.d

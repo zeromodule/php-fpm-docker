@@ -29,6 +29,8 @@ services:
     build:
       context: ./
       dockerfile: ./postgres/Dockerfile.dev
+    ports:
+      - "5555:5432"
     env_file:
       - ./.env
 
